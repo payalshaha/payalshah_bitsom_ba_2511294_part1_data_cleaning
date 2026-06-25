@@ -150,7 +150,7 @@ The following data quality issues were identified in the raw dataset:
 * Exact duplicate rows were removed from the cleaned dataset.
 * Duplicate records containing identical information were consolidated.
 
-Records Removed: [Enter Final Count]
+Records Removed: 20
 
 ---
 
@@ -165,7 +165,7 @@ The following records were flagged for review:
 * Missing critical fields.
 * Date validation issues.
 
-Records Flagged: [Enter Final Count]
+
 
 ---
 
