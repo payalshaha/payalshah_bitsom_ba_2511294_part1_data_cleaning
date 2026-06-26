@@ -77,7 +77,7 @@ The following data quality issues were identified in the raw dataset:
 
 * Replaced missing discounts with 0 when supporting sales fields were valid.
 * Flagged negative discounts as invalid.
-* Flagged discounts greater than 50% as invalid.
+* Flagged discounts greater than 100% as invalid.
 
 ### Calculated Fields Created
 
@@ -112,7 +112,7 @@ The following data quality issues were identified in the raw dataset:
 
 ### Discount Above Allowed Range
 
-* Discounts greater than 50% were flagged as invalid.
+* Discounts greater than 100% were flagged as invalid.
 
 ### Cancelled Orders
 
@@ -160,7 +160,7 @@ The following records were flagged for review:
 
 * Duplicate Order IDs with conflicting information.
 * Negative discount records.
-* Discount values above 50%.
+* Discount values above 100%.
 * Invalid shipping records.
 * Missing critical fields.
 * Date validation issues.
